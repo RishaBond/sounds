@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(./public/assets/fonts/Roboto-Regular.ttf);
+    font-weight: normal;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Roboto';
+    padding: 0;
+    margin: 0;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonsGroup {
+    color: red;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+}
+
+.buttonsGroup button {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    cursor: pointer;
+    &:hover {
+
+    }
+}
