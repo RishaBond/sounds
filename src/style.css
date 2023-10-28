@@ -12,6 +12,7 @@ body {
     margin: 0;
     object-fit: contain;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -34,9 +35,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: transparent;
     cursor: pointer;
-    &:hover {
-
-    }
+    background: transparent;
+    /* object-fit: contain;
+    object-position: center; */
+}
+.volumeRange {
+    z-index: 10;
 }
