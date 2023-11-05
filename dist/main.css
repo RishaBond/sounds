@@ -1,21 +1,45 @@
-/*!**************************************************************!*\
-  !*** css ../node_modules/css-loader/dist/cjs.js!./style.css ***!
-  \**************************************************************/
 @font-face {
-    font-family: 'Roboto';
-    src: url(fc2b5060f7accec5cf74.ttf);
-    font-weight: normal;
+	font-family: 'Roboto';
+	src: url(fc2b5060f7accec5cf74.ttf);
+	font-weight: normal;
 }
 body {
-    font-family: 'Roboto';
-    padding: 0;
-    margin: 0;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	font-family: 'Roboto';
+	padding: 0;
+	margin: 0;
+	object-fit: contain;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-.hello {
-    color: red;
-    font-size: 26px;
-    font-family: 'Roboto', sans-serif;
+.buttonsGroup {
+	color: red;
+	font-size: 26px;
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	flex-direction: row;
+	z-index: 1;
 }
 
-/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbi5jc3MiLCJtYXBwaW5ncyI6Ijs7O0FBQUE7SUFDSSxxQkFBcUI7SUFDckIsNENBQWtEO0lBQ2xELG1CQUFtQjtBQUN2QjtBQUNBO0lBQ0kscUJBQXFCO0lBQ3JCLFVBQVU7SUFDVixTQUFTO0FBQ2I7O0FBRUE7SUFDSSxVQUFVO0lBQ1YsZUFBZTtJQUNmLGlDQUFpQztBQUNyQyxDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vc3R5bGUuY3NzIl0sInNvdXJjZXNDb250ZW50IjpbIkBmb250LWZhY2Uge1xyXG4gICAgZm9udC1mYW1pbHk6ICdSb2JvdG8nO1xyXG4gICAgc3JjOiB1cmwoLi9wdWJsaWMvYXNzZXRzL2ZvbnRzL1JvYm90by1SZWd1bGFyLnR0Zik7XHJcbiAgICBmb250LXdlaWdodDogbm9ybWFsO1xyXG59XHJcbmJvZHkge1xyXG4gICAgZm9udC1mYW1pbHk6ICdSb2JvdG8nO1xyXG4gICAgcGFkZGluZzogMDtcclxuICAgIG1hcmdpbjogMDtcclxufVxyXG5cclxuLmhlbGxvIHtcclxuICAgIGNvbG9yOiByZWQ7XHJcbiAgICBmb250LXNpemU6IDI2cHg7XHJcbiAgICBmb250LWZhbWlseTogJ1JvYm90bycsIHNhbnMtc2VyaWY7XHJcbn0iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=*/
+.buttonsGroup .button {
+	margin: 20px;
+	width: 200px;
+	height: 200px;
+	border: 2px solid #ffffff;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.volumeRange {
+	z-index: 10;
+}
+
+
+/*# sourceMappingURL=main.css.map*/

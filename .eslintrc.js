@@ -22,6 +22,7 @@ module.exports = {
 	plugins: [],
 	rules: {
 		// 'prefer-const': 'warn',
+		'no-undef': off,
 		'prettier/prettier': [
 			'warn',
 			{
